@@ -273,6 +273,32 @@ h6 {
   }
 }
 
+/* Add this to your existing CSS */
+.navbar .search-box {
+  display: flex;
+  align-items: center;
+  margin-left: 15px; /* Adjust the margin as needed */
+}
+
+.navbar .search-form {
+  position: relative;
+}
+
+.navbar .search-input {
+  padding: 6px 12px;
+  border: none;
+  border-radius: 20px;
+  outline: none;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.navbar .search-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+
 /**
 * Mobile Navigation 
 */
